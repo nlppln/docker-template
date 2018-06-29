@@ -1,0 +1,16 @@
+{
+  "docker_type": ["Pip install+script", "Download jar", "Git clone+Python", "Git clone+Java (maven)"],
+  "docker_version_tag": "3",
+  "email": "yourname@esciencecenter.nl",
+  "project_name": "My Python Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "project_short_description": "",
+  "version": "0.1.0",
+  "dockerhub_organization": "nlppln",
+  "cwl_version": "v1.0",
+  "tool_name": "",
+  "tool_url": "",
+  "github_organization": "nlppln",
+  "open_source_license": ["Apache Software License 2.0", "MIT license", "BSD license", "ISC license", "GNU General Public License v3", "Not open source"],
+  "copyright_holder": "Netherlands eScience Center"
+}
