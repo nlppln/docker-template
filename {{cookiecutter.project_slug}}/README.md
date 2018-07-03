@@ -4,7 +4,7 @@
 the current use case.** Carefully check installed software, script names and
 Python versions, etc.
 
-After making the required changes to {{ cookiecutter.cwl_name }}.cwl, the
+After making the required changes to {{ cookiecutter.cwl_name }}, the
 Dockerfile, and adding necessary additional files, build the Docker container
 by doing:
 ```bash
@@ -26,7 +26,7 @@ To be able to use this tool in nlppln, do:
 from nlppln import WorkflowGenerator
 
 with WorkflowGenerator() as wf:
-	wf.load(step_file='https://raw.githubusercontent.com/{{ cookiecutter.github_organization }}/{{ cookiecutter.project_slug }}/master/{{ cwl_name }}.cwl')
+	wf.load(step_file='https://raw.githubusercontent.com/{{ cookiecutter.github_organization }}/{{ cookiecutter.project_slug }}/master/{{ cookiecutter.cwl_name }}')
 
 	# add workflow inputs
 	# add data processing steps
