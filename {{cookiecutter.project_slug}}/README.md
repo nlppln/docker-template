@@ -16,6 +16,15 @@ To test your cwl command line tool, type:
 cwltool {{ cookiecutter.cwl_name }} <inputs>
 ```
 
+## To do
+
+* Create github repository
+* Create Automated Build on dockerhub
+* Add build settings
+	- Type: tag
+	- Name: /^[0-9.]+$/
+* Make a release
+
 ---
 
 Docker container and [CWL specification](http://www.commonwl.org/) to use [{{ cookiecutter.tool_name }}]({{ cookiecutter.tool_url }}).
