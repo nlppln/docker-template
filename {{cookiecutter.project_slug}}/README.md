@@ -13,7 +13,7 @@ docker build -t {{ cookiecutter.dockerhub_organization }}/{{ cookiecutter.projec
 
 To test your cwl command line tool, type:
 ```bash
-cwltool {{ cookiecutter.cwl_name }}.cwl <inputs>
+cwltool {{ cookiecutter.cwl_name }} <inputs>
 ```
 
 ---
